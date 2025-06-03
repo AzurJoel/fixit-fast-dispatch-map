@@ -52,15 +52,3 @@ To run this project on your local machine:
 3.  **Install a Live Server extension (recommended for VS Code):** If you use VS Code, install the "Live Server" extension by Ritwick Dey from the marketplace.
 4.  **Open with Live Server:** Right-click on `index.html` in your file explorer and select "Open with Live Server" (or click the "Go Live" button in the VS Code status bar).
 5.  Your default web browser will open the application, typically at `http://127.0.0.1:5500/index.html`.
-
-## Live Demo
-
-Experience the interactive dispatch map live here:
-[https://yourusername.github.io/your-repository-name/](https://yourusername.github.io/your-repository-name/)
-**(Remember to replace `yourusername` and `your-repository-name` with your actual GitHub details once deployed)**
-
-## GitHub Repository
-
-Explore the source code on GitHub:
-[https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME]](https://github.com/[YOUR_GITHUB_USERNAME]/[YOUR_REPO_NAME])
-**(Remember to replace `[YOUR_GITHUB_USERNAME]` and `[YOUR_REPO_NAME]` with your actual GitHub username and repository name)**
