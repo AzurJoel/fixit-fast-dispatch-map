@@ -1,0 +1,208 @@
+/* Basic reset and full page height */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex; /* Use flexbox for overall layout */
+    flex-direction: column; /* Stack header and main content vertically */
+    height: 100vh; /* Make the body take up the full height of the viewport */
+    overflow: hidden; /* Prevent body scrollbars, allow inner sections to scroll */
+}
+
+/* Header styling */
+.header {
+    background-color: #0056b3; /* Dark blue background */
+    color: white; /* White text */
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Subtle shadow */
+    z-index: 1000; /* Ensure header stays on top */
+}
+
+/* Main content area: sidebar and map */
+.main-container {
+    display: flex; /* Use flexbox for sidebar and map */
+    flex-grow: 1; /* Allow this container to take up remaining vertical space */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 350px; /* Fixed width for the sidebar */
+    background-color: #f4f7f6; /* Light gray background */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Shadow on the right */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    display: flex;
+    flex-direction: column; /* Stack sidebar sections vertically */
+    gap: 15px; /* Space between sections */
+}
+
+.sidebar h2, .sidebar h3 {
+    color: #333;
+    margin-top: 0;
+    border-bottom: 1px solid #eee; /* Separator line */
+    padding-bottom: 5px;
+}
+
+/* Filter dropdown styling */
+.filters {
+    margin-bottom: 10px;
+}
+
+.filters select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Styling for the scrollable lists in the sidebar */
+.scrollable-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    max-height: 250px; /* Limit height to enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #eee;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.scrollable-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer; /* Indicate clickable item */
+    transition: background-color 0.2s ease; /* Smooth hover effect */
+}
+
+.scrollable-list li:last-child {
+    border-bottom: none; /* No border for the last item */
+}
+
+.scrollable-list li:hover {
+    background-color: #e9f0f8; /* Light blue on hover */
+}
+
+.scrollable-list li.selected {
+    background-color: #d1e2f8; /* Highlight selected item */
+    font-weight: bold;
+}
+
+/* Map container styling */
+#map {
+    flex-grow: 1; /* Map takes up all available space in the main-container */
+    background-color: #e0e0e0; /* Fallback background, should be covered by map tiles */
+    z-index: 1; /* Ensure map is behind header/sidebar in layering if overlapping */
+}
+
+/* Custom icons for Leaflet markers */
+/* Technician Icon (wrench from Font Awesome) */
+.technician-icon {
+    background-color: transparent !important; /* Override Leaflet's default marker background */
+    border: none !important;
+    text-align: center;
+}
+.technician-icon i {
+    color: #007bff; /* Blue color for technicians */
+    font-size: 28px; /* Slightly larger icon */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* Subtle shadow for depth */
+}
+
+/* Service Request Icons (colored circles based on priority) */
+.request-marker-high {
+    background-color: #dc3545; /* Red */
+    border: 2px solid #a71d2a;
+    border-radius: 50%; /* Make it a circle */
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.request-marker-medium {
+    background-color: #ffc107; /* Yellow/Orange */
+    border: 2px solid #c28d00;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; /* Darker text for contrast on yellow */
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.request-marker-low {
+    background-color: #17a2b8; /* Cyan */
+    border: 2px solid #117a8b;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Styling for priority colors in sidebar list items */
+.priority-high {
+    color: #dc3545; /* Red text */
+}
+
+.priority-medium {
+    color: #ffc107; /* Yellow/Orange text */
+}
+
+.priority-low {
+    color: #17a2b8; /* Cyan text */
+}
+
+
+/* Routing Machine specific styling adjustments */
+.leaflet-routing-alt {
+    max-height: 200px; /* Constrain height of routing instructions if they were displayed */
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Action buttons in sidebar */
+.action-buttons button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%; /* Full width button */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.action-buttons button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for popup buttons */
+.leaflet-popup-content .assign-btn {
+    background-color: #28a745; /* Green button */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.leaflet-popup-content .assign-btn:hover {
+    background-color: #218838;
+}

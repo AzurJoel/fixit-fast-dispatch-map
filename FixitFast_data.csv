@@ -1,0 +1,101 @@
+Service Request ID,Customer Name,Customer Address,Latitude,Longitude,Appliance Type,Problem Description,Severity/Priority,Scheduled Date/Time,Status,Contact Number
+SR001,Katende,"Plot 45, Ntinda Rd, Kampala",0.340578,32.598642,Refrigerator,Not cooling at all,High,6/6/25 9:00,Pending,+256 772101001
+SR002,Nanyonga,"House 12, Kisaasi Rd, Kampala",0.370591,32.612711,Washing Machine,Leaking water,Medium,6/6/25 9:30,Pending,+256 782202002
+SR003,Ssekandi,"Apt 7, Acacia Ave, Kololo",0.327599,32.583091,Oven,Doesn't heat up,High,6/6/25 10:00,Pending,+256 701303003
+SR004,Nakato,"Plot 88, Buziga Hill, Kampala",0.260592,32.583087,Dishwasher,Not draining,Medium,6/6/25 10:30,Pending,+256 773404004
+SR005,Byaruhanga,"Buyege Rd, Lubaga, Kampala",0.302325,32.554316,Microwave,No power,Low,6/6/25 11:00,Pending,+256 752505005
+SR006,Mukasa,"Flat 3, Naguru Dr, Kampala",0.340591,32.612711,Refrigerator,Makes loud noise,Medium,6/6/25 11:30,Pending,+256 774606006
+SR007,Tumusiime,"Plot 22, Makerere Hill Rd",0.328333,32.569444,Washing Machine,Clothes not clean,Low,6/6/25 12:00,Pending,+256 783707007
+SR008,Lwanga,"Namuwongo Rd, Kampala",0.285888,32.607421,Oven,Door won't close,High,6/6/25 13:00,Pending,+256 702808008
+SR009,Kasozi,"Church Rd, Old Kampala",0.315,32.57,Dishwasher,Doesn't dry dishes,Medium,6/6/25 13:30,Pending,+256 775909009
+SR010,Babirye,"Entebbe Rd, Zana, Kampala",0.231269,32.553957,Refrigerator,Ice maker broken,Low,6/6/25 14:00,Pending,+256 753010101
+SR011,Sentamu,"Bukoto Street, Kampala",0.34359,32.589886,Washing Machine,Spin cycle not working,High,6/7/25 9:00,Pending,+256 772111111
+SR012,Kirabo,"Kireka Rd, Kampala",0.334057,32.651475,Oven,Gas smell,High,6/7/25 9:30,Pending,+256 782222222
+SR013,Okello,"Wandegeya Rd, Kampala",0.327599,32.583091,Microwave,Interior light out,Low,6/7/25 10:00,Pending,+256 701333333
+SR014,Nabbanja,"Kasubi Tombs Rd, Kampala",0.327599,32.583091,Refrigerator,Freezer too cold,Medium,6/7/25 10:30,Pending,+256 773444444
+SR015,Musisi,"Gayaza Rd, Kampala",0.370591,32.612711,Washing Machine,No power,Medium,6/7/25 11:00,Pending,+256 752555555
+SR016,Nandutu,"Gaba Rd, Kampala",0.231269,32.553957,Dishwasher,Dishes still dirty,High,6/7/25 11:30,Pending,+256 774666666
+SR017,Kyambadde,"Kawempe, Kampala",0.340578,32.598642,Oven,Self-clean cycle stuck,Low,6/7/25 12:00,Pending,+256 783777777
+SR018,Asiimwe,"Old Port Bell Rd, Kampala",0.285888,32.607421,Refrigerator,Water dispenser broken,Medium,6/7/25 13:00,Pending,+256 702888888
+SR019,Birungi,"Kansanga, Kampala",0.285888,32.607421,Washing Machine,Excessive vibration,Medium,6/7/25 13:30,Pending,+256 775999999
+SR020,Mugisha,"Bugolobi Flats, Kampala",0.327599,32.583091,Microwave,Door doesn't latch,Low,6/7/25 14:00,Pending,+256 753000000
+SR021,Nantume,"Kiwatule Rd, Kampala",0.370591,32.612711,Refrigerator,Food freezing in fridge,High,6/8/25 9:00,Pending,+256 772123456
+SR022,Kiggundu,"Namungoona, Kampala",0.327599,32.583091,Washing Machine,Error code F5,Medium,6/8/25 9:30,Pending,+256 782345678
+SR023,Ajok,"Kamwokya, Kampala",0.327599,32.583091,Oven,Light bulb burned out,Low,6/8/25 10:00,Pending,+256 701456789
+SR024,Mutebi,"Makindye, Kampala",0.298056,32.569444,Dishwasher,Not heating water,High,6/8/25 10:30,Pending,+256 773567890
+SR025,Nakabugo,"Luzira, Kampala",0.285888,32.607421,Microwave,Buttons not responding,Medium,6/8/25 11:00,Pending,+256 752678901
+SR026,Ssenyonga,"Kyanja, Kampala",0.370591,32.612711,Refrigerator,Water leaking from bottom,Medium,6/8/25 11:30,Pending,+256 774789012
+SR027,Naggayi,"Gayaza Town, Kampala",0.370591,32.612711,Washing Machine,Noisy during spin,High,6/8/25 12:00,Pending,+256 783890123
+SR028,Musoke,"Buloba, Kampala",0.302325,32.554316,Oven,Fan not working,Low,6/8/25 13:00,Pending,+256 702901234
+SR029,Namazzi,"Wakaliga, Kampala",0.302325,32.554316,Dishwasher,Soap dispenser jammed,Medium,6/8/25 13:30,Pending,+256 775012345
+SR030,Kiwanuka,"Munyonyo, Kampala",0.231269,32.553957,Refrigerator,Door seal damaged,High,6/8/25 14:00,Pending,+256 753123456
+SR031,Apio,"Bwaise, Kampala",0.340578,32.598642,Washing Machine,Cycles too long,Medium,6/9/25 9:00,Pending,+256 772234567
+SR032,Baguma,"Rubaga Rd, Kampala",0.302325,32.554316,Oven,Controls not working,High,6/9/25 9:30,Pending,+256 782345678
+SR033,Nassanga,Old Kampala Rd,0.315,32.57,Microwave,Turntable not spinning,Low,6/9/25 10:00,Pending,+256 701456789
+SR034,Odong,"Nalya, Kampala",0.370591,32.612711,Refrigerator,Light not working,Medium,6/9/25 10:30,Pending,+256 773567890
+SR035,Birungi,"Kyebando, Kampala",0.340578,32.598642,Washing Machine,Drum not turning,High,6/9/25 11:00,Pending,+256 752678901
+SR036,Walusimbi,Kansanga Ggaba Rd,0.285888,32.607421,Dishwasher,Leaking from door,High,6/9/25 11:30,Pending,+256 774789012
+SR037,Nambere,"Mulago, Kampala",0.340578,32.598642,Oven,Smoking heavily,High,6/9/25 12:00,Pending,+256 783890123
+SR038,Kintu,Kawempe Ttula Rd,0.340578,32.598642,Refrigerator,Freezing food in fridge,Medium,6/9/25 13:00,Pending,+256 702901234
+SR039,Nansamba,"Busega, Kampala",0.302325,32.554316,Washing Machine,No hot water,Medium,6/9/25 13:30,Pending,+256 775012345
+SR040,Mutesi,"Nansana, Kampala",0.327599,32.583091,Microwave,Sparking inside,High,6/9/25 14:00,Pending,+256 753123456
+SR041,Mugabi,"Buziga, Kampala",0.260592,32.583087,Refrigerator,Water line leaking,Medium,6/10/25 9:00,Pending,+256 772234567
+SR042,Nakalema,"Kitende, Entebbe Rd",0.231269,32.553957,Washing Machine,Not completing cycle,Low,6/10/25 9:30,Pending,+256 782345678
+SR043,Ocen,"Lungujja, Kampala",0.302325,32.554316,Oven,Element not heating,High,6/10/25 10:00,Pending,+256 701456789
+SR044,Namale,"Kabalagala, Kampala",0.285888,32.607421,Dishwasher,Detergent not dispensing,Medium,6/10/25 10:30,Pending,+256 773567890
+SR045,Ssali,"Rubaga, Kampala",0.302325,32.554316,Microwave,Door handle broken,Low,6/10/25 11:00,Pending,+256 752678901
+SR046,Nabukenya,"Bukoto, Kampala",0.34359,32.589886,Refrigerator,Runs constantly,Medium,6/10/25 11:30,Pending,+256 774789012
+SR047,Kabagambe,"Najjanankumbi, Kampala",0.231269,32.553957,Washing Machine,Burning smell,High,6/10/25 12:00,Pending,+256 783890123
+SR048,Akol,"Mutundwe, Kampala",0.302325,32.554316,Oven,Light doesn't work,Low,6/10/25 13:00,Pending,+256 702901234
+SR049,Walakira,"Kira Rd, Kampala",0.370591,32.612711,Dishwasher,Doesn't turn on,High,6/10/25 13:30,Pending,+256 775012345
+SR050,Namuleme,"Kyaliwajjala, Kampala",0.370591,32.612711,Refrigerator,Freezer door not sealing,Medium,6/10/25 14:00,Pending,+256 753123456
+SR051,Ssengooba,"Kitintale, Kampala",0.285888,32.607421,Washing Machine,No water filling,Medium,6/11/25 9:00,Pending,+256 772101001
+SR052,Nakyeyune,"Seeta, Mukono",0.370591,32.612711,Oven,Broken display,Low,6/11/25 9:30,Pending,+256 782202002
+SR053,Kalema,"Bweyogerere, Wakiso",0.334057,32.651475,Refrigerator,Excessive frost,High,6/11/25 10:00,Pending,+256 701303003
+SR054,Nalubega,Gayaza Road,0.370591,32.612711,Dishwasher,Loud grinding noise,Medium,6/11/25 10:30,Pending,+256 773404004
+SR055,Otim,"Mutungo, Kampala",0.285888,32.607421,Microwave,No heat,High,6/11/25 11:00,Pending,+256 752505005
+SR056,Nakiyingi,"Buwaate, Wakiso",0.370591,32.612711,Washing Machine,Drum not spinning,High,6/11/25 11:30,Pending,+256 774606006
+SR057,Kibirige,"Kyanja, Kampala",0.370591,32.612711,Refrigerator,Fan motor loud,Medium,6/11/25 12:00,Pending,+256 783707007
+SR058,Namara,"Kyengera, Wakiso",0.302325,32.554316,Oven,Door hinge broken,Medium,6/11/25 13:00,Pending,+256 702808008
+SR059,Ssebaggala,Salaama Road,0.231269,32.553957,Dishwasher,Controls locked,Low,6/11/25 13:30,Pending,+256 775909009
+SR060,Atim,"Busega, Kampala",0.302325,32.554316,Microwave,Interior rusted,Low,6/11/25 14:00,Pending,+256 753010101
+SR061,Wamala,"Kabowa, Kampala",0.302325,32.554316,Refrigerator,Power intermittently,High,6/12/25 9:00,Pending,+256 772111111
+SR062,Nabwami,"Ntinda, Kampala",0.340578,32.598642,Washing Machine,Clothes torn,Medium,6/12/25 9:30,Pending,+256 782222222
+SR063,Owor,Bukoto,0.34359,32.589886,Oven,Overheating,High,6/12/25 10:00,Pending,+256 701333333
+SR064,Kagwa,Nansana,0.327599,32.583091,Dishwasher,No rinse aid dispensed,Low,6/12/25 10:30,Pending,+256 773444444
+SR065,Nambooze,Kawempe,0.340578,32.598642,Microwave,Fuse keeps blowing,Medium,6/12/25 11:00,Pending,+256 752555555
+SR066,Semakula,"Kanyanya, Kampala",0.340578,32.598642,Refrigerator,Loud buzzing sound,Medium,6/12/25 11:30,Pending,+256 774666666
+SR067,Ajambo,Rubaga,0.302325,32.554316,Washing Machine,Water not heating,High,6/12/25 12:00,Pending,+256 783777777
+SR068,Lukwago,Kyebando,0.340578,32.598642,Oven,Door seal broken,Low,6/12/25 13:00,Pending,+256 702888888
+SR069,Akello,Gaba,0.231269,32.553957,Dishwasher,Not drying,Medium,6/12/25 13:30,Pending,+256 775999999
+SR070,Kato,Nakawa,0.327599,32.583091,Refrigerator,No water pressure,Low,6/12/25 14:00,Pending,+256 753000000
+SR071,Namatovu,Kololo,0.327599,32.583091,Washing Machine,Smells bad,High,6/13/25 9:00,Pending,+256 772123456
+SR072,Mugerwa,Mbuya,0.285888,32.607421,Oven,Self-clean not working,Medium,6/13/25 9:30,Pending,+256 782345678
+SR073,Nassali,Kira Road,0.370591,32.612711,Microwave,Interior damaged,Low,6/13/25 10:00,Pending,+256 701456789
+SR074,Kizza,"Kajjansi, Entebbe Rd",0.231269,32.553957,Refrigerator,Makes knocking sound,High,6/13/25 10:30,Pending,+256 773567890
+SR075,Nansubuga,Mutungo,0.285888,32.607421,Washing Machine,Error code E1,Medium,6/13/25 11:00,Pending,+256 752678901
+SR076,Kabuye,"Lugala, Kampala",0.302325,32.554316,Dishwasher,Leaking from bottom,Medium,6/13/25 11:30,Pending,+256 774789012
+SR077,Nantongo,Gayaza,0.370591,32.612711,Oven,Door doesn't latch,Low,6/13/25 12:00,Pending,+256 783890123
+SR078,Walakira,Zana,0.231269,32.553957,Refrigerator,Light won't turn off,High,6/13/25 13:00,Pending,+256 702901234
+SR079,Nabirye,Munyonyo,0.231269,32.553957,Washing Machine,No power,High,6/13/25 13:30,Pending,+256 775012345
+SR080,Kasirye,Namuwongo,0.285888,32.607421,Microwave,Buttons stiff,Low,6/13/25 14:00,Pending,+256 753123456
+SR081,Babirye,Entebbe Rd,0.231269,32.553957,Refrigerator,Water filter leaking,Medium,6/14/25 9:00,Pending,+256 772234567
+SR082,Kyomuhendo,Bugolobi,0.285888,32.607421,Washing Machine,Won't drain,High,6/14/25 9:30,Pending,+256 782345678
+SR083,Kasozi,"Kisugu, Kampala",0.285888,32.607421,Oven,Cooling fan noisy,Low,6/14/25 10:00,Pending,+256 701456789
+SR084,Mugabi,Kololo,0.327599,32.583091,Dishwasher,Stops mid-cycle,High,6/14/25 10:30,Pending,+256 773567890
+SR085,Nankya,Ntinda,0.340578,32.598642,Microwave,Door doesn't open,Medium,6/14/25 11:00,Pending,+256 752678901
+SR086,Sentamu,Kisaasi,0.370591,32.612711,Refrigerator,Temperature fluctuates,Medium,6/14/25 11:30,Pending,+256 774789012
+SR087,Nagawa,Mutungo,0.285888,32.607421,Washing Machine,Lint filter blocked,Low,6/14/25 12:00,Pending,+256 783890123
+SR088,Byamukama,Najjera,0.370591,32.612711,Oven,Interior light out,Low,6/14/25 13:00,Pending,+256 702901234
+SR089,Akello,Luzira,0.285888,32.607421,Dishwasher,Won't fill with water,High,6/14/25 13:30,Pending,+256 775012345
+SR090,Lwanga,Namugongo,0.370591,32.612711,Refrigerator,Error code E0,High,6/14/25 14:00,Pending,+256 753123456
+SR091,Nakandi,Kansanga,0.285888,32.607421,Washing Machine,Noisy motor,Medium,6/15/25 9:00,Pending,+256 772101001
+SR092,Ssekawooya,Kamwokya,0.327599,32.583091,Oven,Fan not running,High,6/15/25 9:30,Pending,+256 782202002
+SR093,Namubiru,Makindye,0.298056,32.569444,Microwave,Door spring broken,Low,6/15/25 10:00,Pending,+256 701303003
+SR094,Kyobe,Luzira,0.285888,32.607421,Refrigerator,Ice buildup in freezer,Medium,6/15/25 10:30,Pending,+256 773404004
+SR095,Nsubuga,Kireka,0.334057,32.651475,Washing Machine,Drum not agitating,High,6/15/25 11:00,Pending,+256 752505005
+SR096,Nassolo,Bweyogere,0.334057,32.651475,Dishwasher,Doesn't spray water,Medium,6/15/25 11:30,Pending,+256 774606006
+SR097,Lubega,Bukoto,0.34359,32.589886,Oven,Broken temperature sensor,High,6/15/25 12:00,Pending,+256 783707007
+SR098,Namuli,Nansana,0.327599,32.583091,Refrigerator,Water leaking inside,Medium,6/15/25 13:00,Pending,+256 702808008
+SR099,Kisakye,Kawempe,0.340578,32.598642,Washing Machine,Clothes come out wet,Low,6/15/25 13:30,Pending,+256 775909009
+SR100,Mugisha,Bugolobi,0.285888,32.607421,Microwave,Doesn't heat food,High,6/15/25 14:00,Pending,+256 753010101

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FixIt Fast Appliances - Dispatch Map</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>FixIt Fast Appliances Dispatch Center</h1>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <h2>Service Requests (<span id="pending-count">0</span> Pending)</h2>
+            <div class="filters">
+                <label for="priority-filter">Filter by Priority:</label>
+                <select id="priority-filter">
+                    <option value="All">All</option>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            <ul id="request-list" class="scrollable-list">
+                </ul>
+
+            <h2>Technicians</h2>
+            <ul id="technician-list" class="scrollable-list">
+                </ul>
+
+            <div class="action-buttons">
+                <h3>Route Assignment</h3>
+                <p>Click a technician and then a service request on the map or in the lists to draw a route.</p>
+                <button id="clear-route">Clear Route</button>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
